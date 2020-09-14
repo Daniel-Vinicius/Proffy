@@ -73,12 +73,13 @@ Busca | Cadastro
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 
 <!--ts-->
- * <a href="https://reactjs.org">React</a> •
- * <a href="https://npmjs.com/">NPM</a> •
- * <a href="https://nodejs.org/pt-br/">Node</a> •
- * <a href="https://docs.expo.io/">Expo</a> •
- * <a href="https://www.devmedia.com.br/como-instalar-o-node-js-npm-e-o-react-no-windows/40329"> Como instalar Node, React e NPM</a>	
- * <a href="https://www.devmedia.com.br/primeiro-app-com-react-native/40737"> Como instalar Expo e React Native</a>
+ * <a target="_blank" href="https://reactjs.org">React</a> 
+ * <a target="_blank" href="https://npmjs.com/">NPM</a> 
+ * <a target="_blank" href="https://nodejs.org/pt-br/">Node</a> 
+ * <a target="_blank" href="https://docs.expo.io/">Expo</a> 
+ 
+ * <a target="_blank" href="https://www.devmedia.com.br/como-instalar-o-node-js-npm-e-o-react-no-windows/40329"> Como instalar Node, React e NPM</a>	
+ * <a target="_blank" href="https://www.devmedia.com.br/primeiro-app-com-react-native/40737"> Como instalar Expo e React Native</a>
  <!--te-->
 
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
