@@ -117,14 +117,19 @@ $ cd..
 $ cd server
 $ npm start
 
-# Inicie o web
+# Em outro terminal, inicie o web
+$ cd web
 $ npm start
-
-# Inicie o mobile
-$ expo start
 ```
+🐱‍👤 Se para você apareceu uma mensagem parecida a essa nos terminais tudo deu certo, senão verifique se seguiu todos os passos
 
-> ⚠️ O servidor iniciará na porta:3000 - Acesse <http://localhost:3000>
+> Back-end ou Server
+<img alt="server" src="./github/server.JPG">
+
+> Front-end ou Web
+<img alt="web" src="./github/web.JPG">
+
+> ⚠️ Após executar o Server e o Web, o navegador padrão abrirá uma aba em <http://localhost:3000>. E é lá que você vai testar a aplicação. 😉
 
 ---
 ### :hammer: **Tecnologias**
@@ -149,7 +154,7 @@ As seguintes ferramentas foram utilizadas na construção do projeto:
  <sub><b>Daniel Vinícius</b></sub></a> <a href="https://github.com/Daniel-Vinicius" title="Daniel Vinícius">💼</a>
 
 
-Feito com ❤️ por Daniel Vinícius 🏽👋 Entre em contato!
+Feito com ❤️ por Daniel Vinícius 👋 Entre em contato!
 
 ---
 ### :page_facing_up: **Licença**
