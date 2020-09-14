@@ -15,7 +15,6 @@
  <a href="#dvd-executar-o-projeto">Executar</a> •
  <a href="#hammer-tecnologias">Tecnologias</a> •
  <a href="#boy-autor">Autor</a> •
- <a href="#page_facing_up-licença">Licença</a>
 </p>
 
 ## :computer: Sobre
