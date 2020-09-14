@@ -173,7 +173,9 @@ E escaneie o QR CODE com o App da Expo, e você verá está tela:
 <img alt="study" src="./github/demo-mobile-study.gif">
 
 Pronto você executou corretamente.
+
 OBS: O projeto foi feito em 9/08/2020 e lá o Aplicativo se conectava com a API, fui fazer esse README.md agora e não sei o motivo ele não se conecta mais com a API.
+
 Se você puder contribuir e concertar esse bug coloco seu nome como autor também lá no final.
 
 ---
