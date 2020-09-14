@@ -140,13 +140,41 @@ Você está na aplicação e verá uma tela parecida a essa:
 
 O banco já vem com um proffy e uma conexão (quando o usuário clica em entrar em contato) cadastrados, sou eu, preencha os dados como na imagem abaixo e veja se o retorno foi como esse:
 
-<img alt="server" src="./github/study.JPG">
+<img alt="study" src="./github/study.JPG">
 
 Se tudo deu certo até agora, basta testar o cadastro, preencha os dados de uma forma parecida a essa:
 
 <img alt="give-classes" src="./github/demo-desk-give-classes.gif">
 
 Agora faça uma busca passando os filtros de acordo com o usuário que você acabou de cadastrar e veja se o retorno foi como o esperado.
+
+### **Testando a Aplicação Mobile**
+````
+# Executando o mobile
+$ cd mobile
+$ expo start
+````
+
+Você verá uma tela parecida a essa, 
+OBS: É recomendado uma conta Expo
+
+<img alt="" src="./github/mobile-connection.JPG">
+
+Configure para ficar com a configuração igual ao da foto
+
+```json
+{
+    "CONNECTION": "LAN",
+    "PRODUCTION MODE": "false",    
+}
+```
+E escaneie o QR CODE com o App da Expo, e você verá está tela:
+
+<img alt="study" src="./github/demo-mobile-study.gif">
+
+Pronto você executou corretamente.
+OBS: O projeto foi feito em 9/08/2020 e lá o Aplicativo se conectava com a API, fui fazer esse README.md agora e não sei o motivo ele não se conecta mais com a API.
+Se você puder contribuir e concertar esse bug coloco seu nome como autor também lá no final.
 
 ---
 ### :hammer: **Tecnologias**
@@ -161,6 +189,7 @@ As seguintes ferramentas foram utilizadas na construção do projeto:
 - [React](https://reactjs.org/)
 - [React Native](https://reactnative.dev/)
 - [Knex](https://knexjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
 
 ---
 ### :boy: **Autor**
