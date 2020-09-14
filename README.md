@@ -91,18 +91,30 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 $ git clone <https://github.com/Daniel-Vinicius/Proffy>
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd proffy
+$ cd Proffy
 
-# Acesse a pasta server e instale as dependências
-$ cd server && npm i
+# Acesse a pasta server, instale as dependências e saia da pasta server
+$ cd server
+$ npm i
+$ cd..
 
-# Acesse a pasta web e instale as dependências
-$ cd web && npm i
+# Acesse a pasta web, instale as dependências e saia da pasta web
+# Observação, serão encontradas 2 vulnerabilidades, devido a versão dos scripts do React,
+# NÃO é recomendado a atualização para a versão mais recente neste projeto, pois pode gerar erros
+$ cd web
+$ npm i
+$ cd..
 
-# Acesse a pasta mobile e instale as dependências
-$ cd mobile && npm i
+
+# Acesse a pasta mobile, instale as dependências e saia da pasta mobile
+# Observação, serão encontradas 14 vulnerabilidades, devido a versão das dependências do projeto,
+# NÃO é recomendado a atualização para a versão mais recente neste projeto, pois pode gerar erros.
+$ cd mobile
+$ npm i
+$ cd..
 
 # Inicie o server
+$ cd server
 $ npm start
 
 # Inicie o web
