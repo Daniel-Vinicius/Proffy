@@ -72,12 +72,14 @@ Busca | Cadastro
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 
-<p align="center">
- <a href="https://reactjs.org">React</a> •
- <a href="https://npmjs.com/">NPM</a> •
- <a href="https://nodejs.org/pt-br/">Node</a> •
-<a href="https://www.devmedia.com.br/como-instalar-o-node-js-npm-e-o-react-no-windows/40329"> Como instalar</a>
-</p>
+<!--ts-->
+ * <a href="https://reactjs.org">React</a> •
+ * <a href="https://npmjs.com/">NPM</a> •
+ * <a href="https://nodejs.org/pt-br/">Node</a> •
+ * <a href="https://docs.expo.io/">Expo</a> •
+ * <a href="https://www.devmedia.com.br/como-instalar-o-node-js-npm-e-o-react-no-windows/40329"> Como instalar Node, React e NPM</a>	
+ * <a href="https://www.devmedia.com.br/primeiro-app-com-react-native/40737"> Como instalar Expo e React Native</a>
+ <!--te-->
 
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
@@ -100,7 +102,7 @@ $ cd web && npm i
 # Acesse a pasta mobile e instale as dependências
 $ cd mobile && npm i
 
-# Inicie o servidor
+# Inicie o server
 $ npm start
 
 # Inicie o web
@@ -121,8 +123,10 @@ As seguintes ferramentas foram utilizadas na construção do projeto:
 - [CSS3](https://developer.mozilla.org/pt-BR/docs/Archive/CSS3)
 - [Node.js](https://nodejs.org/pt-br/)
 - [Express](https://expressjs.com/pt-br/)
-- [Nodemon](https://nodemon.io)
 - [SQLite](https://www.sqlite.org)
+- [React](https://reactjs.org/)
+- [React Native](https://reactnative.dev/)
+- [Knex](https://knexjs.org/)
 
 ---
 ### :boy: **Autor**
