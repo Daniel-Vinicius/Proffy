@@ -68,6 +68,19 @@ Busca | Cadastro
 
 <p align="center"><kbd><img width="450" style="border-radius: 5px" height="250" alt="Demonstração do Aplicativo Proffy" src="./github/demo-desk-study.gif"></kbd> <kbd><img width="450" style="border-radius: 5px" height="250" alt="Demonstração do Aplicativo Proffy" src="./github/demo-desk-give-classes.gif"></kbd></p>
 
+### Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+
+<p align="center">
+ <a href="https://reactjs.org">React</a> •
+ <a href="https://npmjs.com/">NPM</a> •
+ <a href="https://nodejs.org/pt-br/">Node</a> •
+<a href="https://www.devmedia.com.br/como-instalar-o-node-js-npm-e-o-react-no-windows/40329"> Como instalar</a>
+</p>
+
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+
 ---
 ### :dvd: **Executar o Projeto**
 
@@ -78,17 +91,26 @@ $ git clone <https://github.com/Daniel-Vinicius/Proffy>
 # Acesse a pasta do projeto no terminal/cmd
 $ cd proffy
 
-# Instale as dependências
-$ npm install
+# Acesse a pasta server e instale as dependências
+$ cd server && npm i
 
-# Gerar as tabelas do banco de dados
-$ node src/database/db.js
+# Acesse a pasta web e instale as dependências
+$ cd web && npm i
 
-# Execute a aplicação em modo de desenvolvimento
-$ npm run dev
+# Acesse a pasta mobile e instale as dependências
+$ cd mobile && npm i
+
+# Inicie o servidor
+$ npm start
+
+# Inicie o web
+$ npm start
+
+# Inicie o mobile
+$ expo start
 ```
 
-> ⚠️ O servidor iniciará na porta:5500 - Acesse <http://localhost:5500>
+> ⚠️ O servidor iniciará na porta:3000 - Acesse <http://localhost:3000>
 
 ---
 ### :hammer: **Tecnologias**
@@ -100,7 +122,6 @@ As seguintes ferramentas foram utilizadas na construção do projeto:
 - [Node.js](https://nodejs.org/pt-br/)
 - [Express](https://expressjs.com/pt-br/)
 - [Nodemon](https://nodemon.io)
-- [Nunjucks](https://mozilla.github.io/nunjucks/)
 - [SQLite](https://www.sqlite.org)
 
 ---
