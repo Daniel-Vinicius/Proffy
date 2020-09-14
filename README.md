@@ -14,7 +14,7 @@
  <a href="#movie_camera-demonstração">Demonstração</a> •
  <a href="#dvd-executar-o-projeto">Executar</a> •
  <a href="#hammer-tecnologias">Tecnologias</a> •
- <a href="#boy-autor">Autor</a> •
+ <a href="#boy-autor">Autor</a> 
 </p>
 
 ## :computer: Sobre
@@ -130,6 +130,23 @@ $ npm start
 <img alt="web" src="./github/web.JPG">
 
 > ⚠️ Após executar o Server e o Web, o navegador padrão abrirá uma aba em <http://localhost:3000>. E é lá que você vai testar a aplicação. 😉
+---
+
+### **Testando a Aplicação Web**
+Você está na aplicação e verá uma tela parecida a essa:
+
+
+<img alt="study" src="./github/demo-desk-study.gif">
+
+O banco já vem com um proffy e uma conexão (quando o usuário clica em entrar em contato) cadastrados, sou eu, preencha os dados como na imagem abaixo e veja se o retorno foi como esse:
+
+<img alt="server" src="./github/study.JPG">
+
+Se tudo deu certo até agora, basta testar o cadastro, preencha os dados de uma forma parecida a essa:
+
+<img alt="give-classes" src="./github/demo-desk-give-classes.gif">
+
+Agora faça uma busca passando os filtros de acordo com o usuário que você acabou de cadastrar e veja se o retorno foi como o esperado.
 
 ---
 ### :hammer: **Tecnologias**
