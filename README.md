@@ -149,6 +149,7 @@ Se tudo deu certo até agora, basta testar o cadastro, preencha os dados de uma 
 Agora faça uma busca passando os filtros de acordo com o usuário que você acabou de cadastrar e veja se o retorno foi como o esperado.
 
 ### **Testando a Aplicação Mobile**
+**Com o server em execução!!!**
 ````
 # Executando o mobile
 $ cd mobile
@@ -168,15 +169,23 @@ Configure para ficar com a configuração igual ao da foto
     "PRODUCTION MODE": "false",    
 }
 ```
-E escaneie o QR CODE com o App da Expo, e você verá está tela:
+Neste <a href="https://github.com/Daniel-Vinicius/Proffy/blob/master/mobile/src/services/api.ts" target="_blank">arquivo</a>
+configure para  baseURL estar de acordo com o seu IP.
+
+Por exemplo, o IP do Joãozinho é http://192.168.1.112, e baseURL é http://192.168.1.113, o projeto mobile não se conectará com a API.
+
+Para saber seu ip abra o terminal e digite ipconfig o IP que estiver em:
+
+Endereço IPv4. . . . . . . .  . . . . . . . : 192.168.1.113
+
+é o IP que você deve colocar em baseURL.
+
+No projeto mobile com o servidor em execução,
+execute o comando yarn start ou npm start e escaneie o QR CODE com o <a href="https://play.google.com/store/apps/details?id=host.exp.exponent&hl=pt_BR">App da Expo </a>, e você verá está tela:
 
 <img alt="study" src="./github/demo-mobile-study.gif">
 
 Pronto você executou corretamente.
-
-OBS: O projeto foi feito em 9/08/2020 e lá o Aplicativo se conectava com a API, fui fazer esse README.md agora e não sei o motivo ele não se conecta mais com a API.
-
-Se você puder contribuir e concertar esse bug coloco seu nome como autor também lá no final.
 
 ---
 ### :hammer: **Tecnologias**
